@@ -105,6 +105,7 @@ label start:
 
     hide mc normal
     hide vet normal
+    hide dog normal
     menu:
         "A quick, painless death?":
             jump putdown
