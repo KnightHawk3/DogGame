@@ -1,0 +1,179 @@
+K9G PROJECT -- SCRIPT AS OF 25.07.14
+
+NARRATION
+I walk into the cold, chemical air of the veterinary centre, to the smiling face of a smooth and polished receptionist. 
+She flashes me a smile as I enter.
+
+RECEPTIONIST
+"Hi there, how can I help you?"
+
+[NAME]
+"Hi, I'm just here for my appointment...? It was scheduled at 4.30PM.
+
+RECEPTIONIST
+"Of course. Could I just get your name?" ** The player is prompted to input their name. **
+"And your pet's name?" ** The player is prompted to input the dog's name. **
+
+NARRATION
+She types a few notes into the computer, her nails clacking loudly against the keyboard. She flashes me another smile as she meets my gaze.
+
+RECEPTIONIST
+"Okay, thank you, [name]. If you'd just like to wait here in the lobby, the vet will be out with you in a moment."
+
+[NAME]
+"Thanks."
+
+NARRATION
+Smiling back at her, I take [dogname] by their leash and sit down.
+
+
+VET
+"I have bad news for you."
+
+NARRATION
+When I hear this, my heart sinks to my stomach. Frankly, I don't really know what to expect.
+
+VET
+"Our little friend [dogname] here has a bad case of osteosarcoma."
+
+[NAME] 
+"I don't know what that means and I don't like the sound of it."
+
+VET
+"Ah, sorry." 
+"Put simply, [dognam] has bone cancer... It's normally treatable, but the cancer has spread past [dogname]'s limbs to the point where treatment won't yield much of a result." 
+"Actually, there's not a whole lot we can do for (animal name) at this point other than give them pain medication."
+
+[NAME]
+"What's that meant to mean?" ** Short pause goes here. **
+
+NARRATION
+There's a short silence as he tries to find the right words. 
+Truth be told, I already know what he's trying to say. I just don't know if I believe it.
+
+VET
+"...It means (animal name) may not have much longer to live." ** Short pause goes here. **
+
+NARRATION
+And silence suffocates the room again, save for the noise of the TV in the background. 
+The vet looks just as uncomfortable as I feel, really. What more is there to say? 
+Feeling anxious under his gaze, I look down at (animal name), and he wags his tail at me in acknowledgement. 
+Despite the news, (animal name) seems blissfully unaware of the situation.
+
+(PLAYER NAME)
+"Oh..."
+
+NARRATION
+A dismayed remark is the only thing that seems to come out of my mouth. I feel like an idiot standing there with my mouth open, but somehow I can't voice any of the questions on the tip of my tongue.
+Maybe it was the sheer tension of the situation that was causing that.
+
+(PLAYER NAME)
+"...How long?"
+
+NARRATION
+My voice is small, and when I look up to meet the vet's eyes I sense the tiniest bit of guilt in his expression.
+
+VET
+"I... really couldn't tell you. Could be tomorrow, could be two months, could be six. Not any longer than that, though."
+
+NARRATION
+And that's that. That's it. Come six months and (animal name) is as good as dead. It finally hits me that (animal name), my companion for the past seven years, is going to be dead in six month's time.
+The revelation is too sudden to inspire tears. Instead, all I feel is a deep-rooted sense of sadness, and an emptiness in my chest that makes me feel almost hollow.
+
+(PLAYER NAME)
+"Is there nothing I can do, then?"
+
+NARRATION
+It's then that the vet seems to regain some of his composure.
+
+VET
+Well, you have two options. You can put down (animal name), which is easy and painless, or you can continue to look after 'em until they pass away. 
+The only catch there is that they're going to be in a bit of pain, unless you provide painkillers, but even then effectiveness isn't guaranteed.
+
+NARRATION
+I'm immediately torn. I was hoping for a simple solution, but when presented with a situation like this, I'm thrown into turmoil.
+(animal name) has stayed by my side for seven years and become an irreplaceable part of my life. I can't bear to say goodbye now, but I also can't bear sitting and waiting and not knowing when (animal name) is going to die.
+
+(PLAYER NAME)
+"There's no way of treating this?"
+
+VET
+"None." 
+
+NARRATION
+He shakes his head firmly, and somehow it only sends me further into indecision. 
+
+VET
+"What do you want to do?"
+
+NARRATION
+His gaze seems to soften a bit, but it doesn't detract from the sense of urgency his statement gives. What /should/ I do?
+I feel like I should make the decision now. If I don't make it now, I'll never make it.
+A quick, painless death?
+Or do I let (animal name) live a longer, albeit steadily deteriorating life?
+
+** Two options will show on screen here:
+1. PUT (ANIMAL NAME) DOWN
+2. LET (ANIMAL NAME) LIVE
+
+A ten second timer will occur here.
+
+The ending branches off from here. **
+
+1. ENDING -- PUT DOWN
+
+(PLAYER NAME)
+"I...."
+
+NARRATION
+The words seem to be stuck in my throat. Part of me wants to quickly change my mind, but I know I can't afford to be fickle anymore.
+I have to go through with this.
+
+(PLAYER NAME)
+"I... think (animal name) should be put down. It's for the best."
+"I don't want (animal name) to live a painful life."
+
+NARRATION
+I look down at (animal name) again, and realise that I've done it. I've sent (animal name) straight to the deathbed. 
+This /is/ for the best, isn't it?
+
+VET
+"Mmm... okay. Come this way, then." ** Vet sprite fades out. **
+
+NARRATION
+The vet turns and walks, and I lead (animal name) to their death. ** Fades to black. **
+But when I see (animal name)'s eyes looking up at me, I think I see a bit of fear in them. Maybe that fear is my own.
+It's always hard to let go of things you care about, isn't it? Change and loss are two concepts that we, as humans, are naturally opposed to.
+Despite that, it's a feeling I suppose I'll have to get used to.
+
+-- END --
+
+
+2. ENDING -- LET LIVE
+
+(PLAYER NAME)
+"I..."
+
+NARRATION
+I know the best thing to do is to let (animal name) die peacefully and painlessly. 
+When it comes down to it, though, I'm not ready to let go of (animal name) just yet. I don't want to lose a major part of my life so soon.
+
+(PLAYER NAME)
+"I... want to take (animal name) home."
+
+NARRATION
+The vet raises an eyebrow at me, and I wonder if maybe I haven't made the right choice.
+
+VET
+"Alright. Well, if you'll come back into my office, we can have a bit of a chat on how to look after (animal name)..." ** Vet sprite fades out. **
+
+NARRATION
+The vet turns and walks, and as I follow him I look down at (animal name). 
+Looking at (animal name), you'd think that nothing was wrong by virtue of the fact that (animal name) is as well-natured as ever.
+If I can maintain that through the last legs of (animal name)'s life, then I'll be happy. ** Fades to black. Pause. **
+Three months later, (animal name) died from complications of osteosarcoma.
+But even if the rest of their life was short-lived, I think they were happy. I was happy.
+Loss is always hard to deal with, I think. I don't think it ever really goes away.
+But we keep living. Because that's what we've been put on this earth to do, isn't it?
+
+-- END --

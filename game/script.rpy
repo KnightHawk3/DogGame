@@ -107,14 +107,31 @@ label start:
     hide vet normal
     hide dog normal
     menu:
-        "A quick, painless death?":
+        "Put [dogname] down":
             jump putdown
-        "Or do I let [dogname] live a longer, albeit steadily deteriorating life?":
+        "Let [dogname] live":
             jump letlive
 
 label putdown:
     play music "sad.mp3" fadein 1.0
-    "Bye bye doggie :^("
+    mc "I..."
+    
+    "The words seem to be stuck in my throat. Part of me wants to quickly change my mind, but I know I can't afford to be fickle anymore." 
+    "I have to go through with this."
+    
+    mc "I... think [dogname] should be put down. It's for the best."
+    mc "I don't want [dogname] to live a painful life."
+
+    "I look down at [dogname] again, and realise that I've done it. I've sent [dogname] straight to the deathbed." 
+    "This /is/ for the best, isn't it?"
+
+    vet "Mmm... okay. Come this way, then." 
+
+    "The vet turns and walks, and I lead [dogname] to their death." 
+    "But when I see [dogname]'s eyes looking up at me, I think I see a bit of fear in them. Maybe that fear is my own."
+    "It's always hard to let go of things you care about, isn't it? Change and loss are two concepts that we, as humans, are naturally opposed to."
+    "I suppose I'll have to get used to it, now that [dogname] is gone."
+    
     return
 
 label letlive:

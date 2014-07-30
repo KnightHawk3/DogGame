@@ -1,14 +1,23 @@
-﻿## This file contains some of the options that can be changed to customize
-## your Ren'Py game. It only contains the most common options... there
-## is quite a bit more customization you can do.
+﻿################################################################################
+## Dog Game
 ##
-## Lines beginning with two '#' marks are comments, and you shouldn't
-## uncomment them. Lines beginning with a single '#' mark are
-## commented-out code, and you may want to uncomment them when
-## appropriate.
+## Copyright (c) 2014 Melody Kelly and Tiana Collier
+##
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files (the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+##
+## The above copyright notice and this permission notice shall be included in
+## all copies or substantial portions of the Software.
+##
+###############################################################################
 
 init -1 python hide:
-
+    config.script_version = (6, 17, 7)
+    
     ## Should we enable the use of developer tools? This should be
     ## set to False before the game is released, so the user can't
     ## cheat using developer tools.
@@ -17,8 +26,8 @@ init -1 python hide:
 
     ## These control the width and height of the screen.
 
-    config.screen_width = 800
-    config.screen_height = 600
+    config.screen_width = 1240
+    config.screen_height = 720
 
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
@@ -278,11 +287,11 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    config.default_text_cps = 10
 
     ## The default auto-forward time setting.
 
-    config.default_afm_time = 10
+    config.default_afm_time = 30
 
     #########################################
     ## More customizations can go here.
